@@ -4,6 +4,7 @@ import Layout from '../components/Layout';
 import Home from '../components/Home';
 import Login from '../components/Login';
 import NotFound from '../components/NotFound';
+import '../assets/styles/app.scss';
 
 const App = () => (
   <Router>
