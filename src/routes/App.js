@@ -1,3 +1,8 @@
 import React from 'react';
+//import {BrowserRouter as Router, Route, Switch} from 'react-dom-config'
 
-const App = () => {};
+const App = () => (
+    <
+);
+
+export default App;
