@@ -1,5 +1,23 @@
+@import './base/variables.scss';
+
 *,
 body {
   margin: 0px;
   box-lines: #01579b;
+  font-family: $fuente;
+}
+button,
+input,
+p,
+li,
+a {
+  font-family: $fuente;
+  font-size: 16px;
+  padding: 1px 6px;
+  display: flex;
+  align-items: center;
+}
+
+.margin-left {
+  margin-left: auto;
 }

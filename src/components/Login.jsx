@@ -7,9 +7,11 @@ const Login = () => (
     <div className="login__container">
       <img className="login__img" src={loginImg} alt="log" />
       <form className="login__form">
-        <input type="text" placeholder="Usuario" />
-        <input type="text" placeholder="Contraseña" />
-        <button type="submit">Iniciar Sesión</button>
+        <input className="login__input" type="text" placeholder="Usuario" />
+        <input className="login__input" type="text" placeholder="Contraseña" />
+        <button className="login__button" type="submit">
+          Iniciar Sesión
+        </button>
       </form>
     </div>
   </section>
