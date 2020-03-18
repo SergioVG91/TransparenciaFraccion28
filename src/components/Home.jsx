@@ -1,57 +1,13 @@
 import React from 'react';
-import { FaCheck as IconoLi, FaUser, FaClipboardList, FaHouzz } from 'react-icons/fa';
-import { FiMenu } from 'react-icons/fi';
+import { FaCheck as IconoLi } from 'react-icons/fa';
 import '../assets/styles/components/home.scss';
+import Menu from './Menu';
+import archivo from '../../archivo';
 
 const Home = () => (
   <section className="home">
     <div className="home__menu">
-      <p className="home__menu-label">
-        Menu
-        <FiMenu className="margin-left" />
-      </p>
-      <div className="home__menu-section">
-        <button className="home__menu-button" type="button">
-          Usuarios
-          <FaUser className="margin-left" />
-        </button>
-        <div className="home__menu-elements">
-          <a className="home__menu-link" href="/">
-            Agregar usuario
-          </a>
-          <a className="home__menu-link" href="/">
-            Modificar usuario
-          </a>
-          <a className="home__menu-link" href="/">
-            Eliminar usuario
-          </a>
-        </div>
-      </div>
-      <div className="home__menu-section">
-        <button className="home__menu-button" type="button">
-          Obras
-          <FaHouzz className="margin-left" />
-        </button>
-        <div className="home__menu-elements">
-          <a className="home__menu-link" href="/">
-            Formato 28A
-          </a>
-          <a className="home__menu-link" href="/">
-            Formato 28B
-          </a>
-        </div>
-      </div>
-      <div className="home__menu-section">
-        <button className="home__menu-button" type="button">
-          Reportes
-          <FaClipboardList className="margin-left" />
-        </button>
-        <div className="home__menu-elements">
-          <a className="home__menu-link" href="/">
-            Descargar todas las obras
-          </a>
-        </div>
-      </div>
+      <Menu menu={archivo.menu} />
     </div>
     <div className="home__container">
       <h1 className="home__title">Bienvenido Administrador</h1>

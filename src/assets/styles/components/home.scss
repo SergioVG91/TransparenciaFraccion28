@@ -1,48 +1,18 @@
 @import '../base/variables.scss';
-
 .home {
   display: grid;
   grid-template-columns: 280px 1fr;
 }
 
+//<IconFa.FaUser className="margin-left" />
+//IconFa.FaUser FaHouzz FaClipboardList
+
 .home__menu {
   grid-column: 1;
-  border-radius: 5px;
-  border: 1px solid gray;
-  width: 250px;
-  margin: 10px;
-}
-
-.home__menu-label {
-  height: $box-size-heigth;
-  border: 1px solid #dddddd;
-  background-color: #2fa4e7;
-  color: white;
-  text-align: left;
-  padding: 1px 6px;
-  font-weight: bold;
-}
-.home__menu-button {
-  height: $box-size-heigth;
-  width: 100%;
-  border: 1px solid #dddddd;
-  background-color: #fafafa;
-  cursor: pointer;
-  text-align: left;
-  font-weight: bold;
-}
-.home__menu-elements {
-  display: flex;
-  flex-direction: column;
-}
-.home__menu-link {
-  height: $box-size-heigth;
-  text-decoration: none;
-  border: 1px solid #dddddd;
 }
 
 .home__container {
-  margin: 10px;
+  margin: 20px 10px;
   grid-column: 2;
 }
 .home__title {

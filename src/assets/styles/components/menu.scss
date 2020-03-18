@@ -1,0 +1,40 @@
+@import '../base/variables.scss';
+.menu {
+  grid-column: 1;
+  width: 250px;
+  margin: 10px;
+}
+
+.margin-left {
+  margin-left: auto;
+}
+
+.menu__label {
+  height: $box-size-heigth;
+  border: 1px solid #2fa4e7;
+  background-color: #2fa4e7;
+  border-radius: 10px 10px 0px 0px;
+  color: white;
+  text-align: left;
+  padding: 1px 6px;
+  font-weight: bold;
+}
+
+.menu__button {
+  height: $box-size-heigth;
+  width: 100%;
+  border: 1px solid #dddddd;
+  background-color: #fafafa;
+  cursor: pointer;
+  text-align: left;
+  font-weight: bold;
+}
+.menu__elements {
+  display: flex;
+  flex-direction: column;
+}
+.menu__link {
+  height: $box-size-heigth;
+  text-decoration: none;
+  border: 1px solid #dddddd;
+}
